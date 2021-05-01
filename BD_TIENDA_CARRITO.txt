@@ -1,0 +1,8 @@
+CREATE DATABASE tiendacarrito;
+CREATE TABLE tblProducto (
+    ID int(11) AUTO_INCREMENT PRIMARY KEY,
+    Nombre VARCHAR(255) UNIQUE,
+    Precio decimal(20,2),
+    Descripcion text,
+    Imagen VARCHAR(255)
+);
