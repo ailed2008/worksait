@@ -10,6 +10,25 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Ecommerce</title>
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '3626927987416596');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=3626927987416596&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
 </head>
 
 <body>
@@ -34,7 +53,7 @@
             </div>
         </nav>
     </header>
-  
+
     <main class="l-main">
         <!-- HOME -->
         <section class="home" id="home">
@@ -130,7 +149,7 @@
                 <div class="offer__data">
                     <h2 class="offer__title">Special offer</h2>
                     <p class="offer__description"> Special offerts discounts for women</p>
-                    
+
                     <a href="#" class="button">SHOP NOW</a>
                 </div>
             </div>
@@ -194,10 +213,10 @@
                 <div class="newsletter__suscribe">
                     <h2 class="section-title">OUR NEWSLETTER</h2>
                     <p class="newsletter_description">Promotion new products and sales.</p>
-                    
+
                     <form action="" class="newsletter__form">
                         <input type="text" class="newsletter__input" placeholder="Enter your email">
-                        <a href="#" class="button">SUSCRIBE</a> 
+                        <a href="#" class="button">SUSCRIBE</a>
                     </form>
 
                 </div>
@@ -253,11 +272,11 @@
                 <h3 class="footer__title">FOLLOW</h3>
                 <a href="#" class="footer__social"><i class='bx bxl-facebook-square'></i></a>
                 <a href="#" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
-                <a href="#" class="footer__social"><i class='bx bxl-twitter' ></i></a>
-                <a href="#" class="footer__social"><i class='bx bxl-youtube' ></i></a>    
+                <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                <a href="#" class="footer__social"><i class='bx bxl-youtube'></i></a>
             </div>
         </div>
-            <p>WORKSAIT&#169; 2021 copyright all right reserved</p>
+        <p>WORKSAIT&#169; 2021 copyright all right reserved</p>
     </footer>
 
     <!--===== MAIN JS =====-->
